@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 20px;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+}
+
+
+.to-do{
+    width: 60%;
+    margin-top: 40px;
+}
+
+.textInsert{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    outline: none;
+
+}
+
+.insert{
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    box-shadow: 6px 5px 10px 0px grey;
+}
+
+button{
+    width: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.divLi{
+    margin-top: 20px;
+    padding: 10px;
+    background: lightgray;
+    box-shadow: 6px 5px 10px 0px grey;
+    display: flex;
+    align-items: center;
+}
+
+.divLi span{
+    width: 80%;
+    color: dimgray;
+}
+
+.divLi input{
+    width: 10%;
+    outline: none;
+    accent-color: currentcolor;
+}
+
+.divLi i{
+    font-size: 22px;
+    color: brown;
+}
+
+li{
+    list-style-type: none;
+
+}
+
+.line-through{
+    text-decoration: line-through;
+}
