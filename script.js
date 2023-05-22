@@ -5,8 +5,6 @@ const ul = document.querySelector('ul');
 
 var itens = []
 
-
-
 btnDeleteAll.onclick = () => {
     itens = []
     updateItem();
